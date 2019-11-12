@@ -1,0 +1,155 @@
+{
+
+	"ID": {
+		"explanation": "This is a unique identifier of the accident record."
+	},
+	"Source": {
+		"explanation": "Indicates source of the accident report (i.e. the API which reported the accident.)."
+	},
+	"TMC": {
+		"explanation": "A traffic accident may have a Traffic Message Channel (TMC) code which provides more detailed description of the event.",
+		"codes": {
+			"201": "accident(s)",
+			"203": "multi-vehicle accident",
+			"222": "except",
+			"229": "accident(s). Slow traffic",
+			"241": "accident(s). Right lane blocked",
+			"244": "in",
+			"245": "accident(s). Two lanes blocked",
+			"246": "Traffic queue length increasing at an average rate of 10 km/hr",
+			"247": "accident. Delays",
+			"406": "entry slip road closed"
+		}
+	},
+	"Severity": {
+		"explanation": "Shows severity of the accident (a number between 1 and 4)."
+	},
+	"Start_Time": {
+		"explanation": "Shows start time of the accident in local time zone."
+	},
+	"End_Time": {
+		"explanation": "Shows end time of the accident in local time zone."
+	},
+	"Start_Lat": {
+		"explanation": "Shows latitude in GPS coordinate of the start point."
+	},
+	"Start_Lng": {
+		"explanation": "Shows longitude in GPS coordinate of the start point."
+	},
+	"Distance(mi)": {
+		"explanation": "The length of the road extent affected by the accident."
+	},
+	"Description": {
+		"explanation": "Shows natural language description of the accident."
+	},
+	"Number": {
+		"explanation": "Shows the street number in address field."
+	},
+	"Street": {
+		"explanation": "Shows the street name in address field."
+	},
+	"Side": {
+		"explanation": "Shows the relative side of the street (Right/Left) in address field."
+	},
+	"City": {
+		"explanation": "Shows the city in address field."
+	},
+	"County": {
+		"explanation": "Shows the county in address field."
+	},
+	"State": {
+		"explanation": "Shows the state in address field."
+	},
+	"Zipcode": {
+		"explanation": "Shows the zipcode in address field."
+	},
+	"Country": {
+		"explanation": "Shows the country in address field."
+	},
+	"Timezone": {
+		"explanation": "Shows timezone based on the location of the accident (eastern, central, etc.)."
+	},
+	"Airport_Code": {
+		"explanation": "Denotes an airport-based weather station which is the closest one to location of the accident."
+	},
+	"Weather_Timestamp": {
+		"explanation": "Shows the time-stamp of weather observation record (in local time)."
+	},
+	"Temperature(F)": {
+		"explanation": "Shows the temperature (in Fahrenheit)."
+	},
+	"Wind_Chill(F)": {
+		"explanation": "Shows the wind chill (in Fahrenheit)."
+	},
+	"Humidity(%)": {
+		"explanation": "Shows the humidity (in percentage)."
+	},
+	"Pressure(in)": {
+		"explanation": "Shows the air pressure (in inches)."
+	},
+	"Visibility(mi)": {
+		"explanation": "Shows visibility (in miles)."
+	},
+	"Wind_Direction": {
+		"explanation": "Shows wind direction."
+	},
+	"Wind_Speed(mph)": {
+		"explanation": "Shows wind speed (in miles per hour)."
+	},
+	"Precipitation(in)": {
+		"explanation": "Shows precipitation amount in inches, if there is any."
+	},
+	"Weather_Condition": {
+		"explanation": "Shows the weather condition (rain, snow, thunderstorm, fog, etc.)"
+	},
+	"Amenity": {
+		"explanation": "A POI annotation which indicates presence of amenity in a nearby location."
+	},
+	"Bump": {
+		"explanation": "A POI annotation which indicates presence of speed bump or hump in a nearby location."
+	},
+	"Crossing": {
+		"explanation": "A POI annotation which indicates presence of crossing in a nearby location."
+	},
+	"Give_Way": {
+		"explanation": "A POI annotation which indicates presence of give_way in a nearby location."
+	},
+	"No_Exit": {
+		"explanation": "A POI annotation which indicates presence of no_exit in a nearby location."
+	},
+	"Railway": {
+		"explanation": "A POI annotation which indicates presence of railway in a nearby location."
+	},
+	"Roundabout": {
+		"explanation": "A POI annotation which indicates presence of roundabout in a nearby location."
+	},
+	"Station": {
+		"explanation": "A POI annotation which indicates presence of station in a nearby location."
+	},
+	"Stop": {
+		"explanation": "A POI annotation which indicates presence of stop in a nearby location."
+	},
+	"Traffic_Calming": {
+		"explanation": "A POI annotation which indicates presence of traffic_calming in a nearby location."
+	},
+	"Traffic_Signal": {
+		"explanation": "A POI annotation which indicates presence of traffic_signal in a nearby location."
+	},
+	"Turning_Loop": {
+		"explanation": "A POI annotation which indicates presence of turning_loop in a nearby location."
+	},
+	"Sunrise_Sunset": {
+		"explanation": "Shows the period of day (i.e. day or night) based on sunrise/sunset."
+	},
+	"Civil_Twilight": {
+		"explanation": "Shows the period of day (i.e. day or night) based on civil twilight."
+	},
+	"Nautical_Twilight": {
+		"explanation": "Shows the period of day (i.e. day or night) based on nautical twilight."
+	},
+	"Astronomical_Twilight": {
+		"explanation": "Shows the period of day (i.e. day or night) based on astronomical twilight."
+	}
+
+
+}
